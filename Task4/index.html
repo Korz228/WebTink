@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml"
+    href="assets/star_christmas_decoration_icon_260191.svg" />
+    <title>Админка карточек</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+        <a>6407 Корзюков Максим</a>
+      <button class="start-btn" onclick="setUpStartCards()">
+        Стартовые карточки
+      </button>
+    </header>
+    <div class="content">
+      <div class="left">
+        <form class="add-hero-card">
+          <div class="add-car-card__title">
+          </div>
+          <input
+            class="add-car-card__card-data"
+            type="text"
+            id="name"
+            placeholder="Наименование карточки"
+            required
+          />
+          <textarea
+            class="add-car-card__card-data"
+            id="disc"
+            placeholder="Описание карточки"
+            required
+          ></textarea>
+          <input
+            class="add-car-card__card-data"
+            type="text"
+            id="url"
+            placeholder="Ссылка на изображение для карточки"
+          />
+          <input
+            class="add-car-card__card-data"
+            type="text"
+            id="id"
+            placeholder="ID карточки"
+            required
+          />
+          <input
+            type="text"
+            class="add-car-card__card-data"
+            id="provider"
+            placeholder="Поставщик"
+            required
+          />
+          <input
+            type="button"
+            class="add-car-card__add-btn"
+            value="Сохранить"
+            onclick="addCard()"
+          />
+          <input
+            type="button"
+            class="add-car-card__add-btn btn_hidden"
+            value="Изменить"
+            onclick="changeCard()"
+          />
+        </form>
+      </div>
+      <div class="right">
+        <div class="showcase">
+          <div class="showcase__header">
+            <div class="showcase__title">
+              <p>Карточки:</p>
+            </div>
+            <button class="delete-btn" onclick="deleteCardScript()">
+              Выбрать
+            </button>
+          </div>
+          <div class="showcase__inner"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

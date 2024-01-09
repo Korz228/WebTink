@@ -1,0 +1,33 @@
+{
+  "items": [
+    {
+      "id": 0,
+      "title": "M5",
+      "img": "https://img.razrisyika.ru/kart/11/1200/41475-bmv-m5-2.jpg",
+      "code": 0,
+      "description": "Моя малышка",
+      "provider": "ОАО БМВ констр."
+    },
+    {
+      "id": 1,
+      "title": "ешка 63",
+      "img": "https://ag-spots-2015.o.auroraobjects.eu/2015/11/17/mercedes-benz-c-63-amg-coupe-black-series-c207517112015153212_1.jpg",
+      "сode": 1,
+      "description": "Статус невероятный",
+      "provider": "ЗЗЗ Мерседес"
+    },
+    {
+      "id": 2,
+      "title": "РЫкса седьмая",
+      "img": " https://i.playground.ru/p/Con9PjuPx8qfa4ZrCxtoOQ.jpeg",
+      "code": 2,
+      "description": "неповторимый ротор",
+      "provider": "Маздочка"
+    }
+  ],
+  "creatorInfo": {
+    "name": "Корзюков Максим",
+    "group": "6407",
+    "repo": "https://github.com/Korz228"
+  }
+}
